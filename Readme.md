@@ -125,6 +125,16 @@ This endpoint updates a project.
 
 ## Get Floorplans for Project Id
 
+### HTTP Request
+
+`GET /projects/<Project ID>/floorplans/`
+
+### URL Parameters
+
+| Parameter  | Description                       |
+| ---------- | --------------------------------- |
+| Project ID | The ID of the floorplan's project |
+
 ```Curl
 curl -X 'GET' \
   'http://localhost:8080/api/projects/d94f128b-d5a0-4325-95d8-32457af9ab3b/floorplans' \
@@ -161,6 +171,17 @@ This endpoint retrieves all floorplans for the project.
 
 ## Get a Floorplan for Project Id
 
+### HTTP Request
+
+`GET /projects/<Project ID>/floorplans/<Floorplan ID>`
+
+### URL Parameters
+
+| Parameter    | Description                         |
+| ------------ | ----------------------------------- |
+| Project ID   | The ID of the floorplan's project   |
+| Floorplan ID | The ID of the floorplan to retrieve |
+
 ```Curl
 curl -X 'GET' \
   'http://localhost:8080/api/projects/6308f499-fce0-4aa5-b7bd-8145d1325874/floorplans/9b7e36ba-303c-4bfb-838f-92d9febb9991' \
@@ -187,6 +208,14 @@ This endpoint gets a floorplan for a project.
 
 ## Create Floorplans for Project Id
 
+`POST /projects/<Project ID>/floorplans`
+
+### URL Parameters
+
+| Parameter  | Description                       |
+| ---------- | --------------------------------- |
+| Project ID | The ID of the floorplan's project |
+
 ```Curl
 curl -X 'POST' \
   'http://localhost:8080/api/projects/6308f499-fce0-4aa5-b7bd-8145d1325874/floorplans' \
@@ -211,6 +240,15 @@ This endpoint creates floorplans for a project.
 
 ## Delete Floorplan for the Project
 
+`DELETE /projects/<Project ID>/floorplans/<Floorplan ID>`
+
+### URL Parameters
+
+| Parameter    | Description                         |
+| ------------ | ----------------------------------- |
+| Project ID   | The ID of the floorplan's project   |
+| Floorplan ID | The ID of the floorplan to retrieve |
+
 ```Curl
 curl -X 'DELETE' \
   'http://localhost:8080/api/projects/972c2afe-99e8-445a-a202-572ee761ff2d/floorplans/9b7e36ba-303c-4bfb-838f-92d9febb9991' \
@@ -232,6 +270,15 @@ Content-Type: application/json
 This endpoint deletes a floorplan for the project.
 
 ## Update Floorplan for the Project
+
+`PATCH /projects/<Project ID>/floorplans/<Floorplan ID>`
+
+### URL Parameters
+
+| Parameter    | Description                         |
+| ------------ | ----------------------------------- |
+| Project ID   | The ID of the floorplan's project   |
+| Floorplan ID | The ID of the floorplan to retrieve |
 
 ```Curl
 curl -X 'PATCH' \
