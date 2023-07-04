@@ -19,6 +19,12 @@
 | original_url | original image url of the floorplan | String | x         | x         |
 | large_url    | large image url of the floorplan    | String | x         | x         |
 
+## SCHEMA DIGRAM
+
+```Schema
+![Schema](Schema.png)
+```
+
 ## Swagger for API
 
 ```http
