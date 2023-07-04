@@ -21,7 +21,9 @@
 
 ## Swagger for API
 
-````http://localhost:8080/api/swagger-ui/index.html#/
+```http
+http://localhost:8080/api/swagger-ui/index.html#/
+```
 
 ## Get Projects
 
@@ -29,7 +31,7 @@
 curl -X 'GET' \
   'http://localhost:8080/api/projects' \
   -H 'accept: */*'
-````
+```
 
 > The above command returns:
 
