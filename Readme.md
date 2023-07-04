@@ -27,6 +27,10 @@
 
 ![Schema](Architecture.png)
 
+## RestService Digram
+
+![Schema](RestService.png)
+
 ## Swagger for API
 
 ```http
