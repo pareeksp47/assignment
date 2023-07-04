@@ -127,7 +127,7 @@ This endpoint updates a project.
 
 ### HTTP Request
 
-`GET /projects/<Project ID>/floorplans/`
+`GET /projects/<Project ID>/floorplans`
 
 ### URL Parameters
 
