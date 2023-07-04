@@ -300,4 +300,4 @@ Content-Type: application/json
 }
 ```
 
-This endpoint updates a floorplan.
+This endpoint updates a floorplan for the project.
