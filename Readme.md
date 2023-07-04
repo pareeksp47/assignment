@@ -21,9 +21,7 @@
 
 ## SCHEMA DIGRAM
 
-```Schema
 ![Schema](Schema.png)
-```
 
 ## Swagger for API
 
